@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "@indiekit/preset-jekyll",
+    "@indiekit/store-github"
+  ],
+  "publication": {
+    "me": "https://www.pineandvine.com"
+  },
+  "@indiekit/preset-jekyll": {},
+  "@indiekit/store-github": {
+    "user": "shoesandsocks",
+    "repo": "pineandvine",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "indiekit-for-pineandvine",
+  "version": "1.0.0",
+  "description": "Indiekit server for https://www.pineandvine.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "indiekit serve"
+  },
+  "keywords": [
+    "indiekit",
+    "indieweb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18"
+  },
+  "type": "module",
+  "dependencies": {
+    "@indiekit/indiekit": "^1.0.0-beta.2",
+    "@indiekit/preset-jekyll": "^1.0.0-beta.1",
+    "@indiekit/store-github": "^1.0.0-beta.1"
+  }
+}
