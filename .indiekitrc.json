@@ -2,10 +2,13 @@
   "plugins": ["@indiekit/preset-jekyll", "@indiekit/store-github"],
   "publication": {
     "me": "https://www.pineandvine.com",
-    "locale": "en"
+    "locale": "en",
+    "timeZone": "America/New_York"
   },
   "application": {
-    "locale": "en"
+    "locale": "en",
+    "name": "IndieKit for Pineandvine",
+    "themeColor": "#009900"
   },
   "@indiekit/preset-jekyll": {},
   "@indiekit/store-github": {
