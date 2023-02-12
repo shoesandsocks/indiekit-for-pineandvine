@@ -1,10 +1,11 @@
 {
-  "plugins": [
-    "@indiekit/preset-jekyll",
-    "@indiekit/store-github"
-  ],
+  "plugins": ["@indiekit/preset-jekyll", "@indiekit/store-github"],
   "publication": {
-    "me": "https://www.pineandvine.com"
+    "me": "https://www.pineandvine.com",
+    "locale": "en"
+  },
+  "application": {
+    "locale": "en"
   },
   "@indiekit/preset-jekyll": {},
   "@indiekit/store-github": {
